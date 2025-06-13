@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Talent Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body><!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    autoplay: {
+      delay: 3000,
+    },
+  });
+</script>
+
+  <!-- Content will go here -->
+
+  <script src="script.js"></script>
+</body>
+</html>
+<section class="hero">
+  <h1>Unleashing Potential at Every Stage of Life</h1>
+  <p>Helping individuals and organizations thrive through learning.</p>
+  <a href="#" class="btn">Learn More</a>
+</section>
+<section class="what-we-do">
+  <h2>What We Do</h2>
+<section class="testimonials">
+  <h2>What People Are Saying</h2>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">“Working with this team was a transformative experience.” – Alex</div>
+      <div class="swiper-slide">“Their coaching helped me find clarity.” – Sam</div>
+      <div class="swiper-slide">“Best support we’ve had.” – Jamie</div>
+    </div>
+  </div>
+</section>
+  <div class="columns">
+    <div>
+      <h3>Coaching</h3>
+      <p>Helping leaders unlock growth.</p>
+    </div>
+    <div>
+      <h3>Training</h3>
+      <p>Practical tools for performance.</p>
+    </div>
+    <div>
+      <h3>Consulting</h3>
+      <p>Tailored strategies for success.</p>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 MyTalent. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</footer>
+
